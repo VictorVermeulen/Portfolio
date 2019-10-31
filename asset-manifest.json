@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.cfda8877.chunk.css",
+    "main.js": "/Portfolio/static/js/main.98e96c9a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.98e96c9a.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.6fa48dd9.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6fa48dd9.js.map",
+    "static/css/2.24960acb.chunk.css": "/Portfolio/static/css/2.24960acb.chunk.css",
+    "static/js/2.24b94c78.chunk.js": "/Portfolio/static/js/2.24b94c78.chunk.js",
+    "static/js/2.24b94c78.chunk.js.map": "/Portfolio/static/js/2.24b94c78.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.b073004074ca9fbe921ca24750ff6b17.js": "/Portfolio/precache-manifest.b073004074ca9fbe921ca24750ff6b17.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/2.24960acb.chunk.css.map": "/Portfolio/static/css/2.24960acb.chunk.css.map",
+    "static/css/main.cfda8877.chunk.css.map": "/Portfolio/static/css/main.cfda8877.chunk.css.map",
+    "static/media/index.css": "/Portfolio/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fa48dd9.js",
+    "static/css/2.24960acb.chunk.css",
+    "static/js/2.24b94c78.chunk.js",
+    "static/css/main.cfda8877.chunk.css",
+    "static/js/main.98e96c9a.chunk.js"
+  ]
+}
