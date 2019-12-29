@@ -40,7 +40,7 @@ const projects = [
 		title       : 'Personal Portfolio',
 		image       : './images/portfolio.jpg',
 		description : 'I decided to create this portfolio using React & Material-UI as practise.',
-		code        : '',
+		code        : 'https://github.com/VictorVermeulen/Portfolio/tree/master',
 		website     : ''
 	}
 ];
