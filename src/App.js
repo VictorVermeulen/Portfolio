@@ -1,26 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import projects from './projects';
+import Typography from '@material-ui/core/Typography';
+
+//components
+import ButtonAppBar from './components/NavBar';
+import Project from './components/Project';
+import Introduction from './components/Introduction';
+import Footer from './components/Footer';
+import Education from './components/Education';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<ButtonAppBar />
+			<Introduction />
+			<Education />
+			<Typography variant="h4" gutterBottom className="projects">
+				Projects
+			</Typography>
+			<div className="flex-container">
+				{projects.map((project) => (
+					<Project
+						key={project.key}
+						img={project.image}
+						title={project.title}
+						description={project.description}
+						code={project.code}
+						site={project.website}
+					/>
+				))}
+			</div>
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
