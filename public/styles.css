@@ -1,14 +1,12 @@
 html {
 	font-family: "Montserrat", sans-serif;
 	max-width: 100%;
-	overflow-x: hidden;
 }
 body {
 	display: flex;
 	margin: 0;
 	position: relative;
 	max-width: 100%;
-	overflow-x: hidden;
 }
 
 #root {
@@ -25,8 +23,8 @@ a:visited {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	min-width: 100%;
-	margin: 2em;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .projects {

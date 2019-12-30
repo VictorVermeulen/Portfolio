@@ -13,14 +13,14 @@ const useStyles = makeStyles({
 	actions : {
 		position : 'absolute',
 		bottom   : '0',
-		left     : '0.25em'
+		left     : '0.25rem'
 	},
 	button  : {},
 	card    : {
-		height   : '22rem',
-		maxWidth : 345,
-		margin   : '0.8em',
-		position : 'relative'
+		maxWidth      : 345,
+		margin        : '0.8rem',
+		paddingBottom : '2.5rem',
+		position      : 'relative'
 	},
 	media   : {
 		height : 140
