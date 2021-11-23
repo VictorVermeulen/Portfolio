@@ -17,16 +17,6 @@ const projects = [
     code: "",
     website: "https://www.jslp-academy.nl/",
   },
-
-  {
-    key: 3,
-    title: "Bitcoin Ticker",
-    image: "./images/bitcoin.jpg",
-    description:
-      "For this Bitcoin ticker I used server side rendering with the web framework Express for Node.js. To do this, I used the API from bitcoinaverage.com. The project is deployed on Heroku.",
-    code: "",
-    website: "https://enigmatic-meadow-57316.herokuapp.com/",
-  },
   {
     key: 4,
     title: "Signup to My Newsletter",
@@ -70,7 +60,7 @@ const projects = [
     description:
       "I made this website for someone who is very passionate about cooking and taking pictures. I used Gridsome, CMS Forestry and Vuetify for this project.",
     code: "",
-    website: "https://www.kokenmetsien.nl/",
+    website: "https://romantic-brattain-a0df0d.netlify.app/",
   },
 ];
 
